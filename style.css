@@ -1,0 +1,33 @@
+body a:nth-child(3) {
+    color: green;
+}
+
+body a:nth-child(4) {
+    color: green;
+}
+
+body a:nth-child(5) {
+    color: red;
+}
+
+#second-div p:nth-child(even) {
+    color: blue;
+}
+
+#second-div p:nth-child(odd) {
+    color: red;
+}
+
+body > p:nth-last-child(1):hover {
+    font-style: italic;
+}
+
+#first-div > p:nth-child(2)::after {
+    content: "NEW";
+    color: yellow;
+}
+
+#first-div > p:nth-child(3)::after {
+    content: "NEW";
+    color: yellow;
+}
